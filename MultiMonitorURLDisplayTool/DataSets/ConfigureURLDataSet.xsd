@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfigureURLDataSet" targetNamespace="http://tempuri.org/ConfigureURLDataSet.xsd" xmlns:mstns="http://tempuri.org/ConfigureURLDataSet.xsd" xmlns="http://tempuri.org/ConfigureURLDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfigureURLDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ConfigureURLDataSet" msprop:Generator_UserDSName="ConfigureURLDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MasterConfig" msprop:Generator_TableClassName="MasterConfigDataTable" msprop:Generator_TableVarName="tableMasterConfig" msprop:Generator_TablePropName="MasterConfig" msprop:Generator_RowDeletingName="MasterConfigRowDeleting" msprop:Generator_RowChangingName="MasterConfigRowChanging" msprop:Generator_RowEvHandlerName="MasterConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="MasterConfigRowDeleted" msprop:Generator_UserTableName="MasterConfig" msprop:Generator_RowChangedName="MasterConfigRowChanged" msprop:Generator_RowEvArgName="MasterConfigRowChangeEvent" msprop:Generator_RowClassName="MasterConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EntryID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnEntryID" msprop:Generator_ColumnPropNameInRow="EntryID" msprop:Generator_ColumnPropNameInTable="EntryIDColumn" msprop:Generator_UserColumnName="EntryID" type="xs:int" />
+              <xs:element name="Enabled" msprop:Generator_ColumnVarNameInTable="columnEnabled" msprop:Generator_ColumnPropNameInRow="Enabled" msprop:Generator_ColumnPropNameInTable="EnabledColumn" msprop:Generator_UserColumnName="Enabled" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="URL" msprop:Generator_ColumnVarNameInTable="columnURL" msprop:Generator_ColumnPropNameInRow="URL" msprop:Generator_ColumnPropNameInTable="URLColumn" msprop:Generator_UserColumnName="URL" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorNum" msprop:Generator_ColumnVarNameInTable="columnMonitorNum" msprop:Generator_ColumnPropNameInRow="MonitorNum" msprop:Generator_ColumnPropNameInTable="MonitorNumColumn" msprop:Generator_UserColumnName="MonitorNum" type="xs:string" minOccurs="0" />
+              <xs:element name="ShowDuration" msprop:Generator_ColumnVarNameInTable="columnShowDuration" msprop:Generator_ColumnPropNameInRow="ShowDuration" msprop:Generator_ColumnPropNameInTable="ShowDurationColumn" msprop:Generator_UserColumnName="ShowDuration" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MasterConfig" />
+      <xs:field xpath="mstns:EntryID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

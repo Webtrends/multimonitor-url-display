@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MonitorDataSet" targetNamespace="http://tempuri.org/MonitorDataSet.xsd" xmlns:mstns="http://tempuri.org/MonitorDataSet.xsd" xmlns="http://tempuri.org/MonitorDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MonitorDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MonitorDataSet" msprop:Generator_UserDSName="MonitorDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="datatableMonitor" msprop:Generator_TableClassName="datatableMonitorDataTable" msprop:Generator_TableVarName="tabledatatableMonitor" msprop:Generator_TablePropName="datatableMonitor" msprop:Generator_RowDeletingName="datatableMonitorRowDeleting" msprop:Generator_RowChangingName="datatableMonitorRowChanging" msprop:Generator_RowEvHandlerName="datatableMonitorRowChangeEventHandler" msprop:Generator_RowDeletedName="datatableMonitorRowDeleted" msprop:Generator_UserTableName="datatableMonitor" msprop:Generator_RowChangedName="datatableMonitorRowChanged" msprop:Generator_RowEvArgName="datatableMonitorRowChangeEvent" msprop:Generator_RowClassName="datatableMonitorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EntryID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnEntryID" msprop:Generator_ColumnPropNameInRow="EntryID" msprop:Generator_ColumnPropNameInTable="EntryIDColumn" msprop:Generator_UserColumnName="EntryID" type="xs:int" />
+              <xs:element name="MonitorID" msprop:Generator_ColumnVarNameInTable="columnMonitorID" msprop:Generator_ColumnPropNameInRow="MonitorID" msprop:Generator_ColumnPropNameInTable="MonitorIDColumn" msprop:Generator_UserColumnName="MonitorID" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorX" msprop:Generator_ColumnVarNameInTable="columnMonitorX" msprop:Generator_ColumnPropNameInRow="MonitorX" msprop:Generator_ColumnPropNameInTable="MonitorXColumn" msprop:Generator_UserColumnName="MonitorX" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorY" msprop:Generator_ColumnVarNameInTable="columnMonitorY" msprop:Generator_ColumnPropNameInRow="MonitorY" msprop:Generator_ColumnPropNameInTable="MonitorYColumn" msprop:Generator_UserColumnName="MonitorY" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorLocX" msprop:Generator_ColumnVarNameInTable="columnMonitorLocX" msprop:Generator_ColumnPropNameInRow="MonitorLocX" msprop:Generator_ColumnPropNameInTable="MonitorLocXColumn" msprop:Generator_UserColumnName="MonitorLocX" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorLocY" msprop:Generator_ColumnVarNameInTable="columnMonitorLocY" msprop:Generator_ColumnPropNameInRow="MonitorLocY" msprop:Generator_ColumnPropNameInTable="MonitorLocYColumn" msprop:Generator_UserColumnName="MonitorLocY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:datatableMonitor" />
+      <xs:field xpath="mstns:EntryID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

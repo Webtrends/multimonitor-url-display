@@ -1,0 +1,12 @@
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\bin\Debug\Database\ConfigURL.mdf
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\bin\Debug\Database\ConfigURL_log.ldf
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\bin\Debug\MultiMonitorURLDisplayTool.exe.config
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\bin\Debug\MultiMonitorURLDisplayTool.exe
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\bin\Debug\MultiMonitorURLDisplayTool.pdb
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.Browser.resources
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.configureURL.resources
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.Form1.resources
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.Properties.Resources.resources
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.csproj.GenerateResource.Cache
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.exe
+C:\Users\beboutw\Documents\Visual Studio 2013\Projects\CSharp\MultiMonitorURLDisplayTool\MultiMonitorURLDisplayTool\obj\Debug\MultiMonitorURLDisplayTool.pdb
